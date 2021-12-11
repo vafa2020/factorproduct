@@ -37,14 +37,12 @@
 }
 
 tr {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 40px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  margin: 10px;
 }
-tr:first-child {
-  margin: 20px 0;
-}
+
 td {
   text-align: center;
 }
